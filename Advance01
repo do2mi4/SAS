@@ -9,3 +9,8 @@ proc sort (by, data step)
 proc frequent (table)
 proc tabular (var, ...) 
 proc datasets
+mdy(x,x,x)
+date9.
+delete
+drop
+add
