@@ -1,0 +1,7 @@
+/* SAS 9.4*/
+/* The purpose of this set of programs is for preparing exams only */
+macro
+proc sql
+proc frequent
+proc tabular
+proc datasets
