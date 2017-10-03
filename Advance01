@@ -1,7 +1,11 @@
 /* SAS 9.4*/
 /* The purpose of this set of programs is for preparing exams only */
-macro
-proc sql
-proc frequent
-proc tabular
+input/put
+format/informat
+macro (parameter, mend, ...) 
+merge (if, and, by)
+proc sql (group by, where, inner join, outer join, left join, right join, in )
+proc sort (by, data step)
+proc frequent (table)
+proc tabular (va, ...) 
 proc datasets
