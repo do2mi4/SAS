@@ -7,5 +7,5 @@ merge (if, and, by)
 proc sql (group by, where, inner join, outer join, left join, right join, in )
 proc sort (by, data step)
 proc frequent (table)
-proc tabular (va, ...) 
+proc tabular (var, ...) 
 proc datasets
