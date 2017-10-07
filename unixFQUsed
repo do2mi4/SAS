@@ -1,0 +1,12 @@
+cp
+cp /var/log/wtmp .
+ls -l /var/log/wtmp wtmp
+cp -a /var/log/wtmp wtmp_2
+ls -l /var/log/wtmp wtmp_2
+cd
+pwd
+ls -a
+ls
+cat
+history
+clear (top)
