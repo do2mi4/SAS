@@ -16,3 +16,8 @@ drop
 add
 if
 case when
+sysfunc
+%let dsid=%sysfunc(open(sashelp.class,i));    
+%let n=%sysfunc(attrn(&dsid,nobs));  
+%let rc=%sysfunc(close(&dsid));  
+%put obsnum=&n;
